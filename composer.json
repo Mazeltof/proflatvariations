@@ -1,0 +1,29 @@
+{
+	"name": "mazeltof/proflatvariations",
+	"type": "phpbb-extension",
+	"description": "adds pproflat colors variations",
+	"homepage": "https://www.mazeland.fr/",
+	"version": "1.0.0",
+	"license": "GPL-2.0",
+	"authors": [
+        {
+            "name": "mazeltof",
+            "homepage": "https://www.mazeland.fr/",
+            "role": "Sorcerer's Apprentice"
+        },
+        {
+            "name": "cabot",
+            "homepage": "https://cabotweb.fr/",
+            "role": "SuhiMaker"
+        }
+	],
+	"require": {
+		"php": ">=7.1"
+	},
+	"extra": {
+		"display-name": "proflat variations",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.3.14"
+		}
+	}
+}

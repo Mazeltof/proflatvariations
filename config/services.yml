@@ -1,0 +1,8 @@
+services:
+    mazeltof.mazeland.listener:
+        class: mazeltof\proflatplus\event\listener
+        arguments:
+            - '@user'
+            - '@template'
+        tags:
+            - { name: event.listener }
