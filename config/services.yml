@@ -1,6 +1,6 @@
 services:
     mazeltof.mazeland.listener:
-        class: mazeltof\proflatplus\event\listener
+        class: mazeltof\proflatvariations\event\listener
         arguments:
             - '@user'
             - '@template'

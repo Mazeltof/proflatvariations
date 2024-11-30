@@ -6,7 +6,7 @@
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
-namespace mazeltof\proflatplus\event;
+namespace mazeltof\proflatvariations\event;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
@@ -44,7 +44,7 @@ class listener implements EventSubscriberInterface
 	{
 		$lang_set_ext = $event['lang_set_ext'];
 		$lang_set_ext[] = [
-			'ext_name'	=> 'mazeltof/proflatplus',
+			'ext_name'	=> 'mazeltof/proflatvariations',
 			'lang_set'	=> 'translation',
 		];
 		$event['lang_set_ext'] = $lang_set_ext;
