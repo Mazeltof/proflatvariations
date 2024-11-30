@@ -1,0 +1,22 @@
+{% if definition.SWITCH_COLOR %}
+<li id="style-switch" class="style-switch dropdown-container rightside" data-skip-responsive="true">
+	<a href="#" class="dropdown-trigger" title="{{ lang('VARIAIONS_C') }}">
+		<i class="icon fa-paint-brush fa-fw" ></i><span>{{ lang('VARIAIONS_C') }} </span>
+	</a>
+	<div class="dropdown">
+		<div class="pointer"><div class="pointer-inner"></div></div>
+		<ul class="dropdown-contents color-switcher">
+			{% EVENT navbar_top_switch_content_before %}
+			{% for color in definition.COLORS %}
+			<li class="switch-item">
+				<button class="switch-{{ color }}" data-colorselect="{{ color }}">
+					<i class="fa fa-stop" title="{{ color }}" aria-hidden="true"></i>
+					<span class="sr-only">{{ color }}</span>
+				</button>
+			</li>
+			{% endfor %}
+			{% EVENT navbar_top_switch_content_after %}
+		</ul>
+	</div>
+</li>
+{% endif %}

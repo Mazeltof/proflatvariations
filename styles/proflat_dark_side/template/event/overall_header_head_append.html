@@ -1,0 +1,11 @@
+{% INCLUDE 'config.html' %}
+<script>if (localStorage.proflatvariation) document.documentElement.setAttribute("data-color", localStorage.proflatvariation);</script>
+<link rel="stylesheet" href="{ROOT_PATH}ext/mazeltof/proflatvariations/styles/proflat_dark_side/theme/proflatvariations.css">
+
+<style>
+{% for color in definition.COLORS %}
+    {% set escapedColor = color starts with '#' ? '\\' ~ color : color %}
+    [data-color="{{ escapedColor }}"] { --color01: {{ color }}; }
+    .switch-{{ escapedColor }}, .switch-{{ escapedColor }}:hover, .switch-{{ escapedColor }}:focus { color: {{ color }}; }
+{% endfor %}
+</style>

@@ -1,0 +1,12 @@
+{# Display switch_color
+    0 = no
+    1 = yes
+#}
+{% DEFINE SWITCH_COLOR = '1' %}
+
+{% EVENT config_colors_tables_before %}
+
+{# colors tables #}
+{% DEFINE COLORS = ['#ec555a', '#ef568a', '#b55dc4', '#8d6bc9', '#6f7dc8', '#94b5d6', '#5db2ff', '#40cddf', '#40b0a6', '#79c37c', '#a8d277', '#ffd145', '#ffb240', '#ff8159', '#9b8076', '#b6b6b6', '#889ea8', '#404040'] %}
+
+{% EVENT config_colors_tables_after %}
