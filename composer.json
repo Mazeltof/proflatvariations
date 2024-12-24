@@ -1,7 +1,7 @@
 {
 	"name": "mazeltof/proflatvariations",
 	"type": "phpbb-extension",
-	"description": "adds pproflat colors variations",
+	"description": "adds proflat colors variations",
 	"homepage": "https://www.mazeland.fr/",
 	"version": "1.0.0",
 	"license": "GPL-2.0",

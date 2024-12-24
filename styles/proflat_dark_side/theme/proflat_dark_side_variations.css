@@ -4,142 +4,164 @@ html, [data-color="#5db2ff"] { /*blue*/
 	--color01: 		#5db2ff;
 	--color02: 		#4889c5;
 	--color03: 		#1e91fc;
+	--color035: 	#1e91fc80;	
 	--color04: 		#ffffff;
 }
 [data-color="#ffd145"] { /*amber*/
 	--color01: 		#ffd145;
 	--color02: 		#c19f37;
 	--color03: 		#ffc107;
+	--color035: 	#ffc10780;
 	--color04: 		#ffffff;
 }
 [data-color="#404040"] { /*black*/
 	--color01: 		#404040;
 	--color02: 		#151515;
 	--color03: 		#888888;
+	--color035: 	#88888880;
 	--color04: 		#ffffff;
 }
 [data-color="#94b5d6"] { /*blue bell*/
 	--color01: 		#94b5d6;
 	--color02: 		#6493c5;
 	--color03: 		#738da7;
+	--color035: 	#738da780;
 	--color04: 		#ffffff;
 }
 [data-color="#889ea8"] { /*blue gray*/
 	--color01: 		#889ea8;
 	--color02: 		#697981;
 	--color03: 		#607d8b;
+	--color035: 	#607d8b80;
 	--color04: 		#ffffff;
 }
 [data-color="#9b8076"] { /*brown*/
 	--color01: 		#9b8076;
 	--color02: 		#76625b;
 	--color03: 		#795548;
+	--color035: 	#79554880;
 	--color04: 		#ffffff;
 }
 [data-color="#40cddf"] { /*cyan*/
 	--color01: 		#40cddf;
 	--color02: 		#339ca9;
 	--color03: 		#00bcd4;
+	--color035: 	#00bcd480;
 	--color04: 		#ffffff;
 }
 [data-color="#ff8159"] { /*deep orange*/
 	--color01: 		#ff8159;
 	--color02: 		#c16446;
 	--color03: 		#ff5722;
+	--color035: 	#ff572280;
 	--color04: 		#ffffff;
 }
 [data-color="#8d6bc9"] { /*deep purple*/
 	--color01: 		#8d6bc9;
 	--color02: 		#6d5399;
 	--color03: 		#673ab7;
+	--color035: 	#673ab780;
 	--color04: 		#ffffff;
 }
 [data-color="#79c37c"] { /*green*/
 	--color01: 		#79c37c;
 	--color02: 		#5d9560;
 	--color03: 		#4caf50;
+	--color035: 	#4caf5080;
 	--color04: 		#ffffff;
 }
 [data-color="#dcdcdc"] { /* gainsboro */
 	--color01: 		#dcdcdc;
 	--color02: 		#858585;
 	--color03: 		#adadad;
+	--color035: 	#adadad80;
 	--color04: 		#000000;
 }
 [data-color="#b6b6b6"] { /*gray*/
 	--color01: 		#b6b6b6;
 	--color02: 		#8b8b8b;
 	--color03: 		#9e9e9e;
+	--color035: 	#9e9e9e80;
 	--color04: 		#ffffff;
 }
 [data-color="#6f7dc8"] { /*indigo*/
 	--color01: 		#6f7dc8;
 	--color02: 		#566198;
 	--color03: 		#3f51b5;
+	--color035: 	#3f51b580;
 	--color04: 		#ffffff;
 }
 [data-color="#a8d277"] { /*light green*/
 	--color01: 		#a8d277;
 	--color02: 		#81a05d;
 	--color03: 		#8bc34a;
+	--color035: 	#8bc34a80;
 	--color04: 		#ffffff;
 }
 /*[data-color="#dae56b"] { (lime)
 	--color01: 		#dae56b;
 	--color02: 		#a5ae53;
 	--color03: 		#cddc39;
+	--color035: 	#cddc3980;
 	--color04: 		#000000;
 }*/
 [data-color="#ffb240"] { /*orange*/
 	--color01: 		#ffb240;
 	--color02: 		#c18833;
 	--color03: 		#ff9800;
+	--color035: 	#ff980080;
 	--color04: 		#ffffff;
 }
 [data-color="#ef568a"] { /*pink*/
 	--color01: 		#ef568a;
 	--color02: 		#b5446a;
 	--color03: 		#e91e63;
+	--color035: 	#e91e6380;
 	--color04: 		#ffffff;
 }
 [data-color="#b55dc4"] { /*purple*/
 	--color01: 		#b55dc4;
 	--color02: 		#8a4995;
 	--color03: 		#9c27b0;
+	--color035: 	#9c27b080;
 	--color04: 		#ffffff;
 }
 [data-color="#ec555a"] { /*red*/
 	--color01: 		#ec555a;
 	--color02: 		#b34346;
 	--color03: 		#e51c23;
+	--color035: 	#e51c2380;
 	--color04: 		#ffffff;
 }
 [data-color="#40b0a6"] { /*teal*/
 	--color01: 		#40b0a6;
 	--color02: 		#33877f;
 	--color03: 		#009688;
+	--color035: 	#00968880;
 	--color04: 		#ffffff;
 }
 
-html, [data-theme=light] {
-	--color05: #FFFFFF;
-	--color06: #f5f5f5;
-	--color07: #EEEEEE;
-	--color08: #e5e5e5;
-	--color09: #dddddd;
-	--color10: #CCCCCC;
-	--color11: #999999;
-	--color12: #666666;
-	--color125: #66666680;
-	--color13: #333333;
-	--color14: #222222;
-	--color15: #111111;
-	--color16: #000000;
+html {
+	--color05: #000000;
+	--color06: #111111;
+	--color07: #222222;
+	--color08: #333333;
+	--color09: #666666;
+	--color10: #999999;
+	--color11: #CCCCCC;
+	--color12: #dddddd;
+	--color125: #dddddd80;
+	--color13: #e5e5e5;
+	--color14: #EEEEEE;
+	--color15: #f5f5f5;
+	--color16: #FFFFFF;
 	--color17: #d31141;
 	--color18: #FF6600;
 	--color19: #A9B8C2;
 	--color20: #5D8FBD;
+	color-scheme: dark;
 }
+
 /* Switch */
 .color-switcher {
 	display: flex;

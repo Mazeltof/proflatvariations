@@ -1,5 +1,5 @@
 services:
-    mazeltof.mazeland.listener:
+    mazeltof.proflatvariations.listener:
         class: mazeltof\proflatvariations\event\listener
         arguments:
             - '@user'
